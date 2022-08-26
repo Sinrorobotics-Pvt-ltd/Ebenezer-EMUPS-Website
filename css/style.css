@@ -8229,7 +8229,7 @@ h1, h2, h3, h4, h5,
       font-size: 20px; }
 
 .ftco-navbar-light {
-  background: transparent !important;
+  background: #0d1128!important;
   z-index: 3;
   padding: 0; }
   .ftco-navbar-light .container {
@@ -9324,9 +9324,8 @@ textarea.form-control {
   background: rgba(255, 255, 255, 0.1);
   color: rgba(0, 0, 0, 0.8); }
   .testimony-wrap .user-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
+    width: 700px;
+    height: 200px;
     position: relative; }
   .testimony-wrap .text {
     width: calc(100% - 120px);
