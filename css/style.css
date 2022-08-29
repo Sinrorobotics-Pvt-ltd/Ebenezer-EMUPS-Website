@@ -9361,7 +9361,11 @@ textarea.form-control {
 .image-popup {
   cursor: -webkit-zoom-in;
   cursor: -moz-zoom-in;
-  cursor: zoom-in; }
+  cursor: zoom-in; -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;}
 
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
