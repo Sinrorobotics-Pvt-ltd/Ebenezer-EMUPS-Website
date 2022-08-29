@@ -8818,6 +8818,7 @@ h1, h2, h3, h4, h5,
     width: 100%;
     display: block;
     background-position: top center;
+    background-size: cover;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -9245,9 +9246,9 @@ textarea.form-control {
 .img,
 .blog-img,
 .user-img {
-  background-size: cover;
+  background-size:  contain;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: top; }
 
 .testimony-section {
   position: relative; }
