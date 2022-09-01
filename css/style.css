@@ -8892,6 +8892,10 @@ h1, h2, h3, h4, h5,
   margin-left: 5px;
   margin-right: 5px;
   border:1px solid #fd5f00;}
+  .gallery:hover{
+    transform: scale(0.95);
+    z-index: 1;
+  }
   .gallery .icon {
     width: 50px;
     height: 50px;
@@ -9248,8 +9252,8 @@ textarea.form-control {
 .user-img {
   background-size:  cover;
   background-repeat: no-repeat;
-  background-position: top; }
-
+  background-position: top;
+}
 .testimony-section {
   position: relative; }
   .testimony-section .owl-carousel {
